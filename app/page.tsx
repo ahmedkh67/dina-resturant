@@ -37,7 +37,7 @@ export default function Home() {
                 </Link>
                 
                  </div>
-                 <div className="flex items-end justify-center">
+                 <div className="flex items-end justify-center upanimate">
 
                     <OfferCard title={offerCard.title} bio={offerCard.bio}
                      btntitle={offerCard.btntitle} />
