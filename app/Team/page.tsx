@@ -17,7 +17,7 @@ const page = () => {
     <Navbar />
       <div className="flex w-full h-full flex-col justify-evenly items-start px-[10%]">
         
-        <h1 className="md:text-[170px] text-[60px] font-bold text-white">
+        <h1 className="md:text-[170px] text-[60px] font-bold text-white upanimate2">
             About us
             
         </h1>
