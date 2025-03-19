@@ -1,6 +1,6 @@
 "use client "
 
-import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, OfferCard, Offers, Teamsec, MenusecsButtons } from "@/Components";
+import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, OfferCard, Offers, Teamsec } from "@/Components";
 import Moresec from "@/Components/Moresec";
 import {Gallerybuttontitle, Herosec, Menusecsbuttonstitle } from "@/Constants";
 import Link from "next/link";
