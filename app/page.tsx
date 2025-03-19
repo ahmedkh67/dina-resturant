@@ -2,7 +2,7 @@
 
 import { Commentssec, Distance2, Distancesec, GalleryButton , Menulist, Menusec, MenuSlider, Navbar, OfferCard, Offers, Teamsec, MenusecsButtons } from "@/Components";
 import Moresec from "@/Components/Moresec";
-import {Gallerybuttontitle, Herosec } from "@/Constants";
+import {Gallerybuttontitle, Herosec, Menusecsbuttonstitle } from "@/Constants";
 import Link from "next/link";
 import Historysec from "@/Components/Historysec"; 
 import { offerCard } from "@/Constants";
@@ -56,11 +56,38 @@ export default function Home() {
         <MenuSlider />
         
         <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={"Check our photos taken from the kitchen !"} />
-        <Link href={'/Menu'} className="w-full" >
-            <div className="flex w-full pb-8 ">                
-                    <MenusecsButtons />                
-            </div>
-        </Link>
+        
+        <div className="flex w-full pb-8 ">                
+            <div className="flex w-full justify-around items-center pt-10 md:flex-row flex-col px-2">
+                <Link href={'/Menu'} className='w-full flex justify-center items-center mx-2'>
+                    <div className="flex w-full md:h-40 h-23  m-1 rounded-2xl bg-red-300 p-3 pointer">
+                    <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid px-6
+                        justify-center items-center text-2xl font-bold text-white ">
+                        {Menusecsbuttonstitle[0].title}
+                    </div>
+                    </div>
+                </Link>
+                
+                <Link href={'/Menu'} className='w-full flex justify-center items-center mx-2'>
+                    <div className="flex w-full md:h-40 h-23  m-1 rounded-2xl bg-red-300 p-3 pointer">
+                    <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid px-6
+                        justify-center items-center text-2xl font-bold text-white ">
+                        {Menusecsbuttonstitle[1].title}
+                    </div>
+                    </div>
+                </Link>
+
+                <Link href={'/Menu'} className='w-full flex justify-center items-center mx-2'>
+                    <div className="flex w-full md:h-40 h-23 m-1 rounded-2xl bg-red-300 p-3 pointer">
+                    <div className="flex w-full h-full rounded-2xl border-white border-2 border-solid px-6
+                        justify-center items-center text-2xl font-bold text-white ">
+                        {Menusecsbuttonstitle[2].title}
+                    </div>
+                    </div>
+                </Link>
+            </div>                
+        </div>
+        
         <Moresec />
         <div className="flex w-full justify-start flex-col items-start bg-gray-200 md:pl-25 pl-6">
       
