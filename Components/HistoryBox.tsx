@@ -9,8 +9,8 @@ function HistoryBox () {
     whileInView={{ opacity: 1, scale: 1 }}
 
       >
-    <div className="flex p-4 bg-black dark:bg-white rounded-xl mb-20">
-        <h1 className='text-2xl text-white dark:text-black font-bold'>
+    <div className="flex p-4 bg-black  rounded-xl mb-20">
+        <h1 className='text-2xl text-white  font-bold'>
             1998
         </h1>
     </div></motion.div>

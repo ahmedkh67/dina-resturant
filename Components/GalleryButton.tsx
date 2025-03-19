@@ -6,7 +6,7 @@ function GalleryButton({title , link, bio }: GalleryButtontypes ){
   return (
     <div className="flex flex-col md:flex-row w-full md:p-6 p-2 pb-6 justify-center overflow-hidden items-center">
       <Link href={link} className='w-full'>
-        <button className='bg-black dark:bg-white text-white dark:text-black w-full py-2 pointer rounded-xl'>
+        <button className='bg-black  text-white w-full py-2 pointer rounded-xl'>
           <p className='text-center md:text-6xl text-3xl font-bold pointer '>
             {title}        
           </p>

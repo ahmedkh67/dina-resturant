@@ -10,7 +10,7 @@ function MSliderComponent({ Src }: Mslidertype){
 
   return (
     <div className="FoodImg ">
-    <Image src={Src} alt={'iuy'} width={190} height={190} className='border-2 border-red-500 dark:border-white border-dashed rounded-full ' >
+    <Image src={Src} alt={'iuy'} width={190} height={190} className='border-2 border-red-500 border-dashed rounded-full ' >
       
 
     </Image>

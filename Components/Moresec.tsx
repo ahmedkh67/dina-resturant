@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const Moresec = () => {
   return (
-    <div id='moresec' className="flex w-full flex-col md:flex-row bg-gray-200 dark:bg-[#161616fb] md:justify-around items-start justify-around">
+    <div id='moresec' className="flex w-full flex-col md:flex-row bg-gray-200 md:justify-around items-start justify-around">
       
       {Moreboxes.map((item) => (
          <motion.div className=''

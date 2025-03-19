@@ -10,7 +10,7 @@ import { TeamCardTypes } from '@/types'
 
 function TeamCard({Name , Role}: TeamCardTypes ){
   return (
-    <div className="flex w-64 h-80 bg-gray-200 dark:bg-[#161616fb] rounded-xl flex-col overflow-hidden">
+    <div className="flex w-64 h-80 bg-gray-200 rounded-xl flex-col overflow-hidden">
         <div className="flex w-full h-full bg-black Personb">
 
         </div>

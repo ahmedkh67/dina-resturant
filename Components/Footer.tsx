@@ -11,7 +11,7 @@ const Footer = () => {
         sm:px-16 px-6 pt-10">
             <div className="flex flex-col justify-start items-start
             gap-6">
-                <h1 className='text-4xl font-bold dark:text-white text-black '>
+                <h1 className='text-4xl font-bold  text-black '>
                   Dina
                 </h1>
                 
@@ -22,7 +22,7 @@ const Footer = () => {
 
                 {footerLinks.map((Linkk) => (
                     <div key={Linkk.title}
-                    className='footer__link flex flex-col gap-2 text-base min-w-[170px] text-black dark:text-white '
+                    className='footer__link flex flex-col gap-2 text-base min-w-[170px] text-black  '
                     >
                         <h3 className='font-bold
                         '>{Linkk.title}</h3>

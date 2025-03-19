@@ -17,7 +17,7 @@ function Paragraphsec( {title, dis , dis2 , button_title , Url } : Paragraphsecp
         >
     <div className="flex flex-col justify-between h-full md:px-12 items-center md:items-start px-2">
         
-        <h1 className=' md:text-[36px] text-[40px] md:border-b-6 border-b-9 border-double md:w-52 w-56 font-bold border-black dark:border-white text-center md:text-start'>
+        <h1 className=' md:text-[36px] text-[40px] md:border-b-6 border-b-9 border-double md:w-52 w-56 font-bold border-black text-center md:text-start'>
             {title}
         </h1>
         <h1 className=" text-[22px] w-[90%] hidden md:flex pt-8">

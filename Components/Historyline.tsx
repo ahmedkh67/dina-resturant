@@ -8,7 +8,7 @@ const Historyline = () => {
   return (
     <>
     <div className="flex w-full h-full justify-center ">
-        <div className="flex w-1 h-full my-20 bg-neutral-700 flex-col justify-between items-center dark:bg-gray-400 ">
+        <div className="flex w-1 h-full my-20 bg-neutral-700 flex-col justify-between items-center  ">
             
             <HistoryImgBox />
             <HistoryBox />
@@ -37,7 +37,7 @@ const Historyline = () => {
                 wdwdwdawdawdwdawdawd
             </h1>
             <HistoryBox />
-            <div className="flex bg-black dark:bg-gray-400 w-3 h-3 rounded-full">
+            <div className="flex bg-black w-3 h-3 rounded-full">
 
             </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Reservationbox = () => {
   return (
-    <div className="flex bg-white dark:bg-black md:w-8/10 w-9/10 h-full rounded-2xl flex-col justify-start items-center py-5 px-10">
+    <div className="flex bg-white  md:w-8/10 w-9/10 h-full rounded-2xl flex-col justify-start items-center py-5 px-10">
         <h1 className='text-center text-3xl font-bold'>
           Reserve a table
         </h1>
@@ -58,7 +58,7 @@ const Reservationbox = () => {
               </select>
           </div>
           
-          <button className='w-full h-20 bg-black dark:bg-white rounded-lg pointer text-xl text-white dark:text-black text-center' type='submit' onClick={() => {
+          <button className='w-full h-20 bg-black  rounded-lg pointer text-xl text-white  text-center' type='submit' onClick={() => {
             alert("Thanks for your resarvation , Barcode has Been sent on your Email ,")
           }} >           
               Book now
