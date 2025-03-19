@@ -14,12 +14,12 @@ const page = () => {
       <Navbar />
       <div className="flex w-full h-full flex-col justify-evenly items-start md:px-[10%]">
         
-        <h1 className="md:text-[170px] text-[60px] font-bold text-white pl-[10%]">
+        <h1 className="md:text-[170px] text-[60px] font-bold text-white pl-[10%] upanimate">
             {Menuhero} 
             
         </h1>
         <div className="flex w-full ">
-          <div className="flex items-end md:justify-between justify-center w-full">
+          <div className="flex items-end md:justify-between justify-center w-full upanimate2">
 
               <OfferCard title={offerCard.title} bio={offerCard.bio}
               btntitle={offerCard.btntitle} />

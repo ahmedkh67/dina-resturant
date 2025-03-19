@@ -17,11 +17,11 @@ const page = () => {
     <Navbar />
       <div className="flex w-full h-full flex-col justify-evenly items-start px-[10%]">
         
-        <h1 className="md:text-[170px] text-[60px] font-bold text-white upanimate2">
+        <h1 className="md:text-[170px] text-[60px] font-bold text-white upanimate">
             About us
             
         </h1>
-        <h1 className="text-start text-gray-300 md:w-[30%] w-[65%] my-2 pb-6 text-3xl">
+        <h1 className="text-start text-gray-300 md:w-[30%] w-[65%] my-2 pb-6 text-3xl upanimate2">
                     About us / Our team
         </h1>
         
@@ -29,7 +29,7 @@ const page = () => {
         
       </div>
       <Link href={"#moresec"}>
-        <button className="Button1 md:text-3xl text-4xl px-2 py-0.5 mt-[-7px] rounded-xl">
+        <button className="Button1 md:text-3xl text-4xl px-2 py-0.5 mt-[-7px] rounded-xl upanimate3">
           <Image src={ArrowIcon} alt={'down arrow icon'} width={45} className='rotate-90 pointer ' />
         </button>
         </Link>
