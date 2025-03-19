@@ -57,7 +57,9 @@ export default function Home() {
         
         <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={"Check our photos taken from the kitchen !"} />
         <div className="flex w-full pb-8 ">
-            <MenusecsButtons />
+            <Link href={'/menu'} >
+                <MenusecsButtons />
+            </Link>
         </div>
         <Moresec />
         <div className="flex w-full justify-start flex-col items-start bg-gray-200 md:pl-25 pl-6">
