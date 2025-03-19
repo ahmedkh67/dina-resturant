@@ -11,7 +11,7 @@ const Footer = () => {
         sm:px-16 px-6 pt-10">
             <div className="flex flex-col justify-start items-start
             gap-6">
-                <h1 className='text-4xl font-bold text-black dark: text-white'>
+                <h1 className='text-4xl font-bold dark:text-white text-black '>
                   Dina
                 </h1>
                 
