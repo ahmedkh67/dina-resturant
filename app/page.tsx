@@ -57,7 +57,7 @@ export default function Home() {
         
         <GalleryButton title={Gallerybuttontitle} link={'/Gallery'} bio={"Check our photos taken from the kitchen !"} />
         <div className="flex w-full pb-8 ">
-            <Link href={'/menu'} className="w-full" >
+            <Link href={'/Menu'} className="w-full" >
                 <MenusecsButtons />
             </Link>
         </div>
